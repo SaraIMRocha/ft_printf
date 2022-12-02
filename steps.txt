@@ -1,0 +1,69 @@
+You have to implement the following conversions:
+• %c Prints a single character.
+• %s Prints a string (as defined by the common C convention).
+• %p The void * pointer argument has to be printed in hexadecimal format.
+• %d Prints a decimal (base 10) number.
+• %i Prints an integer in base 10.
+• %u Prints an unsigned decimal (base 10) number.
+• %x Prints a number in hexadecimal (base 16) lowercase format.
+• %X Prints a number in hexadecimal (base 16) uppercase format.
+• %% Prints a percent sign.
+
+------------------------------------------------------------------------------
+
+STDARG
+
+stdarg.h is a header that allows functions to accept an indefinite number of 
+arguments. It provides facilities for stepping through a list of function 
+arguments of unknown number and type.
+
+The contents of stdarg.h are typically used in variadic functions, though 
+they may be used in other functions (for example, vprintf) called by 
+variadic functions. 
+
+------------------------------------------------------------------------------
+
+Name 		Description
+va_start 	Start iterating arguments with a va_list
+va_arg 		Retrieve an argument
+va_end 		Free a va_list
+va_copy 	Copy contents of one va_list to another
+
+------------------------------------------------------------------------------
+
+TIPS
+
+Em todas as funcoes auxiliares do printf, é preciso ter um pointer len 
+(que indica para o tamanho) para ser possível a função dar a contagem 
+correcta de caracteres no output
+
+------------------------------------------------------------------------------
+
+WHAT WE NEED
+
+Function to print hexadecimal numbers
+Function to print unsigneds
+Function to print pointers
+Function to print strings
+Function to print numbers
+Function to print the % symbol
+Function to print a single char 
+
+------------------------------------------------------------------------------
+
+HEXADECIMAL
+
+In C programming language, a hexadecimal number is a value having a made up 
+of 16 symbols which have 10 standard numerical systems from 0 to 9 and 6 
+extra symbols from A to F. In C, the hexadecimal number system is also known 
+as base-16 number system. In C there is no data type to store hexadecimal 
+values like float or long or double instead you can store in the integral 
+type of data types. In C programming language, hexadecimal value is represented 
+as 0x or 0X and to input hexadecimal value using scanf which has format 
+specifiers like %x or %X.
+
+https://www.educba.com/hexadecimal-in-c/
+https://www.youtube.com/watch?v=WGN4NWICTpQ -> Neso
+https://www.youtube.com/watch?v=6uC5u-S4Mmw -> Caleb
+
+------------------------------------------------------------------------------
