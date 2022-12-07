@@ -6,13 +6,13 @@
 /*   By: sara <sara@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/04 19:16:55 by sara              #+#    #+#             */
-/*   Updated: 2022/12/04 19:32:04 by sara             ###   ########.fr       */
+/*   Updated: 2022/12/07 19:03:14 by sara             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_libftprintf.h"
 
-void	ft_pointer(size_t ptr, int *len)
+void	ft_putptr(size_t ptr, int *len)
 {
 	char	s;
 	int		i;

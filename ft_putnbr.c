@@ -6,7 +6,7 @@
 /*   By: sara <sara@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/04 18:24:49 by sara              #+#    #+#             */
-/*   Updated: 2022/12/04 18:39:24 by sara             ###   ########.fr       */
+/*   Updated: 2022/12/07 19:29:44 by sara             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,7 +31,7 @@ void	ft_putnbr(int nbr, int *len)
 		ft_putchar((nbr + 48), len);
 }
 
-void	ft_putunsnbr(unsigned int, int *len)
+void	ft_putunsnbr(unsigned int nbr, int *len)
 {
 	if (nbr > 16)
 	{
