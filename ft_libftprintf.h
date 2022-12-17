@@ -6,7 +6,7 @@
 /*   By: sara <sara@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/02 01:32:08 by sara              #+#    #+#             */
-/*   Updated: 2022/12/07 19:30:55 by sara             ###   ########.fr       */
+/*   Updated: 2022/12/16 14:48:55 by sara             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,12 +21,12 @@
 # include <limits.h>
 
 void	ft_putchar(char c, int *len);
-void	ft_putstr(char *s);
+void	ft_putstr(char *s, int *len);
 void	ft_ishexa(unsigned int nbr, char hex, int *len);
-void	ft_ishexap(size_t nbr, char hex, int *len);
-void	ft_putptr(size_t ptr, int *len);
+void	ft_ishexap(const void *p, int *len);
+void    ft_putp(const void *p, int *len);
 int		ft_printf(const char *, ...);
-int		ft_putvar(va_list arg, const char *s, int i, int *len);
+void	ft_putvar(va_list arg, const char str, int *len)
 void	ft_putnbr(int nbr, int *len);
 void	ft_putunsnbr(unsigned int nbr, int *len);
 

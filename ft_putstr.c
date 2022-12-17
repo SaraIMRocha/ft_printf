@@ -6,7 +6,7 @@
 /*   By: sara <sara@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/04 17:25:11 by sara              #+#    #+#             */
-/*   Updated: 2022/12/04 17:46:52 by sara             ###   ########.fr       */
+/*   Updated: 2022/12/16 14:40:12 by sara             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,12 +18,15 @@ void	ft_putstr(char *s, int *len)
 {
 	size_t	i;
 
-	i = 0;
 	if (!s)
 	{
-		write(1, "\0", 6);
+		write(1, "(null)", 6);
 		*len += 6;
 	}
 	else
-		ft_putchar(s[i++], len);
+	{
+		i = 0;
+		while (s[i])
+			ft_putchar(s[i++], len);
+	}
 }

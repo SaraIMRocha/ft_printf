@@ -6,13 +6,13 @@
 #    By: sara <sara@student.42.fr>                  +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2022/12/02 01:32:05 by sara              #+#    #+#              #
-#    Updated: 2022/12/07 19:08:34 by sara             ###   ########.fr        #
+#    Updated: 2022/12/16 14:47:28 by sara             ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
 NAME		= libftprintf.a
 
-SRCS			= ft_ishexa.c ft_ishexap.c ft_printf.c ft_putchar.c ft_putnbr.c \
+SRCS			= ft_ishexa.c ft_printf.c ft_putchar.c ft_putnbr.c \
 					ft_putptr.c ft_putstr.c ft_putvar.c \
 
 OBJS			= $(SRCS:.c=.o)

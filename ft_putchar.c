@@ -6,13 +6,13 @@
 /*   By: sara <sara@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/04 17:38:23 by sara              #+#    #+#             */
-/*   Updated: 2022/12/07 19:26:24 by sara             ###   ########.fr       */
+/*   Updated: 2022/12/16 14:36:34 by sara             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "ft_libftprintf.h"
 
-int	ft_putchar(char c, int *len)
+void	ft_putchar(char c, int *len)
 {
 	write (1, &c, 1);
 	(*len)++;
