@@ -6,13 +6,13 @@
 /*   By: sara <sara@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/12/04 17:25:11 by sara              #+#    #+#             */
-/*   Updated: 2022/12/16 14:40:12 by sara             ###   ########.fr       */
+/*   Updated: 2023/01/04 01:40:03 by sara             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 //ascii 6 =  ACK - acknowledge
 
-#include "ft_libftprintf.h"
+#include "ft_printf.h"
 
 void	ft_putstr(char *s, int *len)
 {
